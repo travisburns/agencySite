@@ -20,12 +20,12 @@ function Hero() {
        whileInView={{ left: "-0px" }}
        viewport={{ once: false}}
        transition={{ duration: 1, delay: 0.5 }}
-      className='relative left-[-240px] mb:top-20 mb:left-0 md:left-[5rem] lg:left-[0rem] xl:w-[47rem] 2xl:w-[52rem] 2xl:left-[15rem]' src={alienImage} alt="heroImage"
+      className='relative left-[-240px] pt-[6rem] mb:top-20 mb:left-0 md:left-[5rem] lg:left-[0rem] xl:w-[47rem] 2xl:w-[52rem] 2xl:left-[15rem]' src={alienImage} alt="heroImage"
       /> 
       <motion.h1 
       style={{position: "relative"}}
-      initial={{ left: "1500px" }}
-      whileInView={{ left: "950px" }}
+      initial={{ left: "" }}
+      whileInView={{ left: "" }}
       viewport={{ once: false}}
       transition={{ duration: 1, delay: 0.5 }}
       className='font-black 
@@ -49,7 +49,7 @@ function Hero() {
       xs:text-[50px] 
       text-[40px] 
       lg:leading-[98px] 
-      mt-60  text-white relative  
+      mt-[9rem]  text-white relative  
        bottom-[10rem]
        text-center
       h-17 
@@ -66,8 +66,8 @@ function Hero() {
         </motion.h1>
         <motion.button 
         style={{position: "relative"}}
-        initial={{ bottom: "460px" }}
-        whileInView={{ bottom: "513px" }}
+        initial={{ bottom: "" }}
+        whileInView={{ bottom: "" }}
         viewport={{ once: false}}
         transition={{ duration: 1, delay: 0.5 }}
         className='
@@ -75,6 +75,9 @@ function Hero() {
          bg-indigo-950
          font-Poppins
          p-5 
+         top-[-7rem]
+         left-[2rem]
+         mt-[1rem]
          rounded-2xl 
          sm:w-[450px] 
          text-white
@@ -106,7 +109,8 @@ function Hero() {
          bg-indigo-950
          font-Poppins
          p-5
-         
+         top-[-7rem]
+         left-[2.5rem]
          rounded-2xl 
          sm:w-[450px] 
          text-white
